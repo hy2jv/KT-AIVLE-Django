@@ -20,4 +20,6 @@
         <a href="/blog/tag/{{tag.id}}/">#{{tag.name}}</a>
     {% endfor %}
 
+    <br>
+    <a href="{% url 'blog:list' %}">[목록 보기]</a>
 {% endblock content %}
