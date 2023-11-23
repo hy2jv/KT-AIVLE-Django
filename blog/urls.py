@@ -12,4 +12,6 @@ urlpatterns = [
     path('tag/<id>/', views.tag_list),
     path('test3/', views.test3),
     path('new/', views.post_create, name='create'),
+    path('update/<id>/', views.post_update, name='update'),
+    path('delete/<id>/', views.post_delete, name='delete'),
 ]
