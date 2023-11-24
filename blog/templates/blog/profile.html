@@ -8,5 +8,7 @@
         <li>이름:{{user.name}}</li>
         <li>전화번호:{{user.profile.phone_number}}</li>
         <li>주소:{{user.profile.address}}</li>
+        <li>{{user.date_joined}}</li>
     </ul>
+<a href="{% url 'password_change' %'}">[암호 변경하기]</a>
 {% endblock %}
